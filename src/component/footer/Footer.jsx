@@ -20,12 +20,12 @@ class Footer extends Component {
                                 <div className="footer-left">
                                     <div className="inner">
                                         <span>Ready To Do This</span>
-                                        <h2>
+                                        <h2 className="mt-5">
                                             Let's get <br /> to work
                                         </h2>
-                                        <a className="rn-button-style--2" href="/contact">
+                                        {/* <a className="rn-button-style--2" href="/contact">
                                             <span>Contact Us</span>
-                                        </a>
+                                        </a> */}
                                     </div>
                                 </div>
                             </div>
