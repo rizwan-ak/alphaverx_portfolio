@@ -1,7 +1,13 @@
 import React, { Component } from 'react';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 
-import clientPic from '../assets/clients/client1.png';
+import clientPic from '../assets/clients/client.png';
+import ridzwanPic from '../assets/clients/ridzwan.jpg';
+import zaidPic from '../assets/clients/zaid.jpg';
+import yansienPic from '../assets/clients/yansien.jpg';
+import julianPic from '../assets/clients/julian.jpg';
+import emanPic from '../assets/clients/eman.jpg';
+import sentilPic from '../assets/clients/eman.jpg';
 
 class Testimonial extends Component {
     render() {
@@ -140,57 +146,42 @@ class Testimonial extends Component {
                                 <Tab>
                                     <div className="testimonial-thumbnai">
                                         <div className="thumb">
-                                            <img
-                                                src="https://fiverr-res.cloudinary.com/image/upload/f_auto,q_auto,t_profile_small/v1/attachments/profile/photo/459afbcb63d8271a797764f6507c818c-1590938968050/237161e5-56f1-424b-9b66-26af2d6383e3.jpg"
-                                                alt="Testimonial Images"
-                                            />
+                                            <img src={julianPic} alt="Testimonial Images" />
                                         </div>
                                     </div>
                                 </Tab>
                                 <Tab>
                                     <div className="testimonial-thumbnai">
                                         <div className="thumb">
-                                            <img
-                                                src="https://fiverr-res.cloudinary.com/image/upload/f_auto,q_auto,t_profile_small/v1/attachments/profile/photo/3072abe3018c821ec3add9c5d48deffc-1599729252339/d50648cb-b932-438e-9ce4-465c4c0a64df.jpg"
-                                                alt="Testimonial Images"
-                                            />
+                                            <img src={yansienPic} alt="Testimonial Images" />
                                         </div>
                                     </div>
                                 </Tab>
                                 <Tab>
                                     <div className="testimonial-thumbnai">
                                         <div className="thumb">
-                                            <img
-                                                src="https://fiverr-res.cloudinary.com/image/upload/f_auto,q_auto,t_profile_small/v1/attachments/profile/photo/766537c75a05d86860705a8a10dc2ba4-1594809508225/66bf568e-7446-4174-bf68-7fe9f136312a.jpg"
-                                                alt="Testimonial Images"
-                                            />
+                                            <img src={emanPic} alt="Testimonial Images" />
                                         </div>
                                     </div>
                                 </Tab>
                                 <Tab>
                                     <div className="testimonial-thumbnai">
                                         <div className="thumb">
-                                            <img
-                                                src="https://fiverr-res.cloudinary.com/image/upload/f_auto,q_auto,t_profile_small/v1/attachments/profile/photo/d677cacb532b4c654880ab88ea9746aa-1545688266501/11ab3f34-571e-4048-82ad-0be070acaec9.jpg"
-                                                alt="Testimonial Images"
-                                            />
+                                            <img src={zaidPic} alt="Testimonial Images" />
                                         </div>
                                     </div>
                                 </Tab>
                                 <Tab>
                                     <div className="testimonial-thumbnai">
                                         <div className="thumb">
-                                            <img src="https://pbs.twimg.com/profile_images/908280984373575680/fR0L_DMz.jpg" alt="Testimonial Images" />
+                                            <img src={ridzwanPic} alt="Testimonial Images" />
                                         </div>
                                     </div>
                                 </Tab>
                                 <Tab>
                                     <div className="testimonial-thumbnai">
                                         <div className="thumb">
-                                            <img
-                                                src="https://media-exp1.licdn.com/dms/image/C5103AQH-TdGRVwXGNg/profile-displayphoto-shrink_200_200/0/1516327767009?e=1619049600&v=beta&t=DSdq0Rtt4bZ9f6wj36F1C4PkzGnvx4mfPQwCTubyc38"
-                                                alt="Testimonial Images"
-                                            />
+                                            <img src={sentilPic} alt="Testimonial Images" />
                                         </div>
                                     </div>
                                 </Tab>

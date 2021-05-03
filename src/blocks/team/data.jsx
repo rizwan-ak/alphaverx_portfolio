@@ -82,7 +82,7 @@ let data = [
     {
         images: require('../../assets/team/wajid.jpg'),
         title: 'Wajid Javaid',
-        designation: 'Back-end Developer',
+        designation: 'Full Stack Developer',
         socialNetwork: [
             {
                 icon: <FaLinkedinIn />,

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import * as emailjs from 'emailjs-com';
-import contactPic from '../../assets/pics/contact1.png';
+import contactPic from '../../assets/pics/contact.png';
 
 class ContactTwo extends Component {
     state = {

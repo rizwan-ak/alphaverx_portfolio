@@ -14,7 +14,7 @@ import Portfolio from '../component/HomeLayout/homeOne/Portfolio';
 import ContactTwo from '../elements/contact/ContactTwo';
 
 import logo from '../assets/logo/lightLogo.png';
-import Test from '../assets/pics/test.jpg';
+import landingScreenPic from '../assets/pics/landing-screen.png';
 
 import TeamOne from '../blocks/team/TeamOne';
 
@@ -23,7 +23,7 @@ class MainDemo extends Component {
         return (
             <div className="active-dark">
                 <Header headertransparent="header--transparent" colorblack="color--black" logoname="logo.png" />
-                <div className="prv-banner-wrapper bg_color--1" style={{ backgroundImage: `url(${Test})` }}>
+                <div className="prv-banner-wrapper bg_color--1" style={{ backgroundImage: `url(${landingScreenPic})` }}>
                     <div className="container-fluid">
                         <div className="plr--120">
                             <div className="row">
@@ -37,7 +37,7 @@ class MainDemo extends Component {
                                         {/* <h1>Welcome to Alphaverx</h1> */}
                                         <p className="title">We go beyond the limit and bring the best possible solution to scale your business, your growth and the future</p>
                                         <div className="purshase-btn">
-                                            <a href="/contact" className="rn-button-style--2 btn-solid">
+                                            <a href="#contact-us" className="rn-button-style--2 btn-solid">
                                                 Contact Us
                                             </a>
                                         </div>
