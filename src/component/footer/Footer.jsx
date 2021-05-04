@@ -1,13 +1,11 @@
 import React, { Component } from 'react';
-import { FaTwitter, FaInstagram, FaLinkedinIn, FaWhatsapp } from 'react-icons/fa';
+import { FaLinkedinIn, FaWhatsapp } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 
 const SocialShare = [
     { Social: <HiOutlineMail />, link: 'https://www.facebook.com/' },
-    { Social: <FaWhatsapp />, link: 'https://www.linkedin.com/' },
-    { Social: <FaLinkedinIn />, link: 'https://www.linkedin.com/' },
-    { Social: <FaInstagram />, link: 'https://www.instagram.com/' },
-    { Social: <FaTwitter />, link: 'https://twitter.com/' },
+    { Social: <FaWhatsapp />, link: 'https://wa.me/+923234276408/?text=Hey Alphaverx, I need ... ' },
+    { Social: <FaLinkedinIn />, link: 'https://www.linkedin.com/in/rizwan-ahmed-7242631b6/' },
 ];
 class Footer extends Component {
     render() {
@@ -19,8 +17,8 @@ class Footer extends Component {
                             <div className="col-lg-6">
                                 <div className="footer-left">
                                     <div className="inner">
-                                        <span>Ready To Do This</span>
-                                        <h2 className="mt-5">
+                                        <span>Ready To order?</span>
+                                        <h2 className="mt-3">
                                             Let's get <br /> to work
                                         </h2>
                                         {/* <a className="rn-button-style--2" href="/contact">
@@ -46,9 +44,9 @@ class Footer extends Component {
                                             <div className="footer-link">
                                                 <h4>Say Hello</h4>
                                                 <ul className="ft-link">
-                                                    <li>
+                                                    {/* <li>
                                                         <a href="mailto:admin@example.com">sales@alphaverx.com</a>
-                                                    </li>
+                                                    </li> */}
                                                     <li>
                                                         <a href="mailto:hr@example.com">alphaverx@gmail.com</a>
                                                     </li>
