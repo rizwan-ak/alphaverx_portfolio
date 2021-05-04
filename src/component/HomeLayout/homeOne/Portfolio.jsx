@@ -26,6 +26,14 @@ import order26Pic from '../../../assets/porfolio/app/order26.png';
 import order26Gif from '../../../assets/porfolio/app/order26.gif';
 import quickwashPic from '../../../assets/porfolio/app/quickwash.png';
 import quickwashGif from '../../../assets/porfolio/app/quickwash.gif';
+import g2048Pic from '../../../assets/porfolio/game/2048.png';
+import g2048Gif from '../../../assets/porfolio/game/2048.gif';
+import fpsPic from '../../../assets/porfolio/game/fps.png';
+import fpsGif from '../../../assets/porfolio/game/fps.gif';
+import blind_destiny_mp_Pic from '../../../assets/porfolio/game/blind-destiny-mp.png';
+import blind_destiny_mp_Gif from '../../../assets/porfolio/game/blind-destiny-mp.gif';
+import blind_destiny_Pic from '../../../assets/porfolio/game/blind-destiny.png';
+import blind_destiny_Gif from '../../../assets/porfolio/game/blind-destiny.gif';
 
 const PortfolioList = [
     {
@@ -33,6 +41,12 @@ const PortfolioList = [
         gif: ludoGif,
         category: 'Web Development',
         title: 'Ludo',
+    },
+    {
+        image: fpsPic,
+        gif: fpsGif,
+        category: 'Game Development',
+        title: '2048',
     },
     {
         image: cottagePic,
@@ -52,7 +66,12 @@ const PortfolioList = [
         category: 'Web Development',
         title: 'A Foot In The Door',
     },
-
+    {
+        image: g2048Pic,
+        gif: g2048Gif,
+        category: 'Game Development',
+        title: '2048',
+    },
     {
         image: flowchartPic,
         gif: flowchartGif,
@@ -64,6 +83,12 @@ const PortfolioList = [
         gif: mommunityGif,
         category: 'App Development',
         title: 'Mommunity - A Moms Comunity',
+    },
+    {
+        image: blind_destiny_mp_Pic,
+        gif: blind_destiny_mp_Gif,
+        category: 'Game Development',
+        title: '2048',
     },
     {
         image: movonicsPic,
@@ -88,6 +113,12 @@ const PortfolioList = [
         gif: order26Gif,
         category: 'App Development',
         title: 'Order 26',
+    },
+    {
+        image: blind_destiny_Pic,
+        gif: blind_destiny_Gif,
+        category: 'Game Development',
+        title: '2048',
     },
     {
         image: conferbotPic,
