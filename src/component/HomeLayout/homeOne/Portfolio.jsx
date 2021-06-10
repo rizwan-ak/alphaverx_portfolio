@@ -105,7 +105,7 @@ const PortfolioList = [
     {
         image: occuboundPic,
         gif: occuboundGif,
-        category: 'Web Development ',
+        category: 'Web Development',
         title: 'Occubound - A Platform to Meet Recruiters Faster',
     },
     {
